@@ -1,0 +1,108 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Calibri', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Container to Centralize Form */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Title Styling */
+h1, h2 {
+  color: #f08080; /* Light red */
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Form Styling */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+/* Main Button Styling */
+#principal {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#principal:hover {
+  background-color: #218838;
+  transform: scale(1.1);
+}
+
+/* Secondary Button Styling */
+#secundario {
+  padding: 10px 15px;
+  background-color: #1e21cf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#secundario:hover {
+  background-color: #1a1cb7;
+  transform: scale(1.1);
+}
+
+/* Unordered List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Ensures the form stays centered */
+form, ul {
+  width: 100%;
+}
